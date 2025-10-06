@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terreno en Venta – Oportunidad Única</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #0a0a0a; }
+    header { background: url('destacada del terreno') center/cover no-repeat; color: white; padding: 80px 20px; text-align: center; }
+    header h1 { font-size: 3em; margin-bottom: 10px; }
+    .btn-principal { background: #28a745; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; }
+    section { padding: 40px 20px; background: white; margin-bottom: 20px; }
+    h2 { color: #333; margin-bottom: 20px; }
+    ul { list-style: none; padding: 0; }
+    ul li { margin-bottom: 10px; font-size: 1.1em; }
+    ol li { margin-bottom: 10px; font-size: 1.1em; }
+    .galeria img { width: 30%; margin: 1%; border-radius: 8px; }
+    iframe { border-radius: 8px; }
+    form { display: flex; flex-direction: column; max-width: 500px; margin: auto; }
+    input, textarea { margin-bottom: 15px; padding: 10px; font-size: 1em; }
+    button { background: #007bff; color: white; padding: 12px; border: none; border-radius: 5px; cursor: pointer; }
+    blockquote { font-style: italic; color: #555; margin: 20px 0; }
+    footer { background: #222; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Terreno en Venta – Oportunidad Única</h1>
+  <p>Ubicado en La Paz, ideal para inversión, vivienda o desarrollo comercial.</p>
+  <a href="#contacto" class="btn-principal">Solicita más información</a>
+</header>
+
+<section>
+  <h2>Características del Terreno</h2>
+  <ul>
+    <li>📐 Superficie: 500 m²</li>
+    <li>📍 Ubicación: Zona Sur, La Paz</li>
+    <li>🛣️ Accesos: Pavimentado, cerca de avenidas principales</li>
+    <li>💧 Servicios: Agua, luz, alcantarillado disponibles</li>
+    <li>📄 Documentación: Papeles al día, listo para transferencia</li>
+    <li>🏞️ Entorno: Zona tranquila, con vista panorámica</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Ubicación en el Mapa</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1912.3321295062983!2d-68.06188552240087!3d-16.543039013805462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f214e6890aed3%3A0x46960e56a5ea5a65!2sC.%2031%2095%2C%20La%20Paz!5e0!3m2!1ses-419!2sbo!4v1759771765528!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section>
+  <h2>Galería de Imágenes</h2>
+  <div class="galeria">
+    <img src="vista frontal" alt="Vista frontal del terreno">
+    <img src="vista aerea.webp" alt="Vista aérea">
+    <img src="planos.jpg" alt="Plano del terreno">
+  </div>
+</section>
+
+<section>
+  <h2>Precio y Beneficios</h2>
+  <p><strong>Precio:</strong> $35,000 USD</p>
+  <p>Financiamiento disponible. ¡Negociable!</p>
+  <p>Ideal para: Construcción de vivienda, inversión a largo plazo, desarrollo comercial.</p>
+</section>
+
+<section>
+  <h2>Testimonios</h2>
+  <blockquote>
+    “Excelente ubicación, proceso de compra rápido y seguro.” – Ana M.
+  </blockquote>
+</section>
+
+<section>
+  <h2>Storyboard Visual del Video Promocional</h2>
+  <ol>
+    <li><strong>Escena 1:</strong> Vista aérea del terreno con texto “Terreno en venta en La Paz”.</li>
+    <li><strong>Escena 2:</strong> Toma del entorno: calles, servicios, vista panorámica.</li>
+    <li><strong>Escena 3:</strong> Plano del terreno con medidas destacadas.</li>
+    <li><strong>Escena 4:</strong> Cliente feliz firmando contrato.</li>
+    <li><strong>Escena 5:</strong> Llamado a la acción: “Contáctanos hoy”.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Guion de Locución</h2>
+  <p><em>“¿Buscas invertir en un terreno con excelente ubicación? Este lote de 500 m² en la Zona Sur de La Paz te ofrece acceso pavimentado, servicios básicos y una vista espectacular. Con documentación al día, es tu oportunidad de construir o invertir con seguridad. ¡Contáctanos ahora y hazlo tuyo!”</em></p>
+</section>
+
+<section id="contacto">
+  <h2>Contáctanos</h2>
+  <form action="enviar.php" method="POST">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="mensaje" placeholder="Consulta o interés" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Venta de Terreno | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
